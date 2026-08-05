@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Edge Atlas: markets, research capital, institutional bets, and consumer-culture signals." />
+  <title>Edge Atlas</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Edge Atlas home">
+      <span class="brand-mark">EA</span>
+      <span>
+        <strong>Edge Atlas</strong>
+        <small>Futures signal intelligence</small>
+      </span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#markets">Markets</a>
+      <a href="#institutions">Institutions</a>
+      <a href="#culture">Culture</a>
+      <a href="#method">Method</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div>
+        <p class="eyebrow">A live notebook for weak signals</p>
+        <h1>Track what money, institutions, and people are quietly learning.</h1>
+        <p class="hero-copy">One surface for market behavior, research commitments, government programs, corporate operating bets, and smaller consumer rituals that may compound into the future.</p>
+      </div>
+      <div class="hero-status">
+        <div class="status-row"><span>Market data</span><strong id="market-status">Loading…</strong></div>
+        <div class="status-row"><span>Signals</span><strong id="signal-count">—</strong></div>
+        <div class="status-row"><span>Last refresh</span><strong id="last-refresh">—</strong></div>
+      </div>
+    </section>
+
+    <section id="markets" class="section-shell section-block">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / Markets</p>
+          <h2>Futures versus common stocks</h2>
+        </div>
+        <p>Normalized performance, direct price ratios, and rolling return correlations from free daily market data.</p>
+      </div>
+
+      <div class="market-controls panel">
+        <label>Primary asset
+          <select id="asset-a"></select>
+        </label>
+        <label>Comparison asset
+          <select id="asset-b"></select>
+        </label>
+        <label>Window
+          <select id="window-select">
+            <option value="126">6 months</option>
+            <option value="252" selected>1 year</option>
+            <option value="504">2 years</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="metric-grid" id="market-metrics"></div>
+
+      <div class="chart-grid">
+        <article class="panel chart-panel wide">
+          <div class="panel-heading">
+            <div><span class="kicker">Relative performance</span><h3>Indexed to 100</h3></div>
+            <span class="source-pill">Daily close</span>
+          </div>
+          <div class="chart-wrap"><canvas id="normalized-chart"></canvas></div>
+        </article>
+        <article class="panel chart-panel">
+          <div class="panel-heading">
+            <div><span class="kicker">Relative value</span><h3>Price ratio</h3></div>
+          </div>
+          <div class="chart-wrap"><canvas id="ratio-chart"></canvas></div>
+        </article>
+        <article class="panel chart-panel">
+          <div class="panel-heading">
+            <div><span class="kicker">Relationship</span><h3>60-day correlation</h3></div>
+          </div>
+          <div class="chart-wrap"><canvas id="correlation-chart"></canvas></div>
+        </article>
+      </div>
+      <p class="data-note" id="market-note">Market prices are best-effort daily data for research and comparison, not execution.</p>
+    </section>
+
+    <section id="institutions" class="section-shell section-block">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / Institutional capital</p>
+          <h2>Research investments and strategic commitments</h2>
+        </div>
+        <p>Programs, grants, acquisitions, infrastructure, standards, and organizational changes—weighted by commitment rather than publicity.</p>
+      </div>
+      <div class="filter-row" id="institution-filters"></div>
+      <div class="signal-grid" id="institution-grid"></div>
+    </section>
+
+    <section id="culture" class="section-shell section-block">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 / Consumer culture</p>
+          <h2>Smaller behaviors, product experiments, and social rituals</h2>
+        </div>
+        <p>Lower-certainty signals where novelty matters: commerce loops, domestic routines, social coordination, identity, and taste formation.</p>
+      </div>
+      <div class="filter-row" id="culture-filters"></div>
+      <div class="signal-grid" id="culture-grid"></div>
+    </section>
+
+    <section id="method" class="section-shell section-block method-grid">
+      <div>
+        <p class="eyebrow">04 / Method</p>
+        <h2>A signal is an observable commitment.</h2>
+      </div>
+      <div class="method-cards">
+        <article class="panel"><span>Strength</span><h3>What was risked?</h3><p>Capital, headcount, authority, infrastructure, regulation, distribution, or reputation.</p></article>
+        <article class="panel"><span>Novelty</span><h3>How non-obvious is it?</h3><p>A signal scores higher when it creates a new operational category rather than repeating a known trend.</p></article>
+        <article class="panel"><span>Falsifiability</span><h3>What would kill the thesis?</h3><p>Each strong signal should have a boring explanation and a future observation that would weaken it.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Edge Atlas</span>
+    <span>Primary sources first. Commentary second.</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
