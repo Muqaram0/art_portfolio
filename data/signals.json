@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-08-05",
+  "signals": [
+    {
+      "kind": "institution",
+      "category": "Scale-up capital",
+      "date": "2026-04-06",
+      "entity": "ARPA-E",
+      "title": "SCALEUP Ready turns technical validation into a rolling deployment program",
+      "summary": "DOE committed up to $40 million to the first two projects in a rolling program designed specifically to move high-impact energy technologies into commercial scale-up.",
+      "thesis": "The scarce layer is shifting from invention toward institutions that can repeatedly finance the dangerous middle between prototype and industrial deployment.",
+      "strength": 5,
+      "novelty": 3,
+      "source": "https://arpa-e.energy.gov/news-and-events/news-and-insights/doe-announces-first-projects-under-scaleup-ready-program-2026"
+    },
+    {
+      "kind": "institution",
+      "category": "Talent formation",
+      "date": "2026-04-28",
+      "entity": "ARPA-E",
+      "title": "IGNIITE funds early-career researchers as independent technical risk-takers",
+      "summary": "$10 million was allocated for up to twenty early-career projects across critical minerals, nuclear, geothermal, grid reliability, and manufacturing.",
+      "thesis": "Governments are increasingly treating individual researcher formation—not only projects—as strategic infrastructure.",
+      "strength": 4,
+      "novelty": 4,
+      "source": "https://arpa-e.energy.gov/news-and-events/news-and-insights/us-department-energy-announces-10-million-igniite-2026-program-back-early-career-innovators"
+    },
+    {
+      "kind": "institution",
+      "category": "Materials sovereignty",
+      "date": "2026-02-18",
+      "entity": "DARPA",
+      "title": "SMASH targets near-zero-waste multi-element mineral separation",
+      "summary": "A 48-month program seeks separation systems that recover multiple elements simultaneously from diverse feedstocks rather than optimizing around one target mineral.",
+      "thesis": "Waste streams and mixed ores may become programmable resource portfolios, changing the economics of extraction and strategic stockpiles.",
+      "strength": 5,
+      "novelty": 5,
+      "source": "https://www.darpa.mil/events/2026/proposers-day-smash"
+    },
+    {
+      "kind": "institution",
+      "category": "Clinical infrastructure",
+      "date": "2026-05-27",
+      "entity": "DARPA",
+      "title": "RAPIID couples shelf-stable blood analogs with regulation and manufacturing",
+      "summary": "The program explicitly combines biological component development, field delivery systems, diagnostics, FDA pathways, and scaled manufacturing.",
+      "thesis": "Frontier biomedicine is being redesigned as an end-to-end deployment stack where regulation and logistics are technical workstreams, not afterthoughts.",
+      "strength": 5,
+      "novelty": 5,
+      "source": "https://www.darpa.mil/news/2026/rapiidly-transitioning-shelf-stable-blood-substitutes-battlefield"
+    },
+    {
+      "kind": "institution",
+      "category": "Digital twins",
+      "date": "2026-04-09",
+      "entity": "DARPA",
+      "title": "VITAL develops validated cardiovascular twins for treatment forecasting",
+      "summary": "The program combines patient data, biological physics, detailed models, faster real-time models, and explicit validation requirements.",
+      "thesis": "Medicine may increasingly test interventions against individualized computational surrogates before touching the patient.",
+      "strength": 5,
+      "novelty": 4,
+      "source": "https://www.darpa.mil/events/2026/proposers-day-vital"
+    },
+    {
+      "kind": "institution",
+      "category": "Communications",
+      "date": "2026-07-06",
+      "entity": "DARPA",
+      "title": "LUC seeks a universal codec across known error-correction codes",
+      "summary": "The program aims to build one encoder-decoder capable of sending and receiving information using any known communication error-correction code.",
+      "thesis": "Interoperability itself is becoming a defense technology: systems that translate across heterogeneous technical regimes can be more valuable than another optimized endpoint.",
+      "strength": 4,
+      "novelty": 5,
+      "source": "https://www.darpa.mil/work-with-us/opportunities/hr001126s0014"
+    },
+    {
+      "kind": "culture",
+      "category": "Discovery commerce",
+      "date": "2026-05-13",
+      "entity": "TikTok",
+      "title": "TikTok formalizes the moment between discovery and purchase as an advertising surface",
+      "summary": "TikTok World ’26 introduced tools designed to detect and activate the transition from cultural discovery to measurable commercial intent.",
+      "thesis": "The consumer funnel is collapsing into a continuous entertainment-commerce loop where taste formation and transaction routing happen on the same surface.",
+      "strength": 4,
+      "novelty": 3,
+      "source": "https://newsroom.tiktok.com/tiktok-world-26-turning-discovery-into-business-growth-with-ai-powered-innovations-vertical-experiences-and-high-impact-brand-solutions?lang=en"
+    },
+    {
+      "kind": "culture",
+      "category": "Social coordination",
+      "date": "2026-01-01",
+      "entity": "Partiful",
+      "title": "Partiful adds ticketing without removing the visible guest graph",
+      "summary": "Paid tickets, capacity controls, payouts, and QR check-in are inserted into the same social page where guests see attendance and invite friends.",
+      "thesis": "Ritual-specific social networks may monetize coordination itself rather than attention, turning social proof into event infrastructure.",
+      "strength": 4,
+      "novelty": 5,
+      "source": "https://partiful.com/blog/post/introducing-ticketing-on-partiful"
+    },
+    {
+      "kind": "culture",
+      "category": "Domestic protocols",
+      "date": "2026-01-08",
+      "entity": "P&G / Olay",
+      "title": "A decade of water-free cleansing research becomes a dissolvable retail format",
+      "summary": "Olay Cleansing Melts translate patented water-free science into a compact product requiring the consumer to add water at use time.",
+      "thesis": "Consumer products may increasingly ship as concentrated instructions completed by the home, reducing logistics while changing familiar rituals.",
+      "strength": 4,
+      "novelty": 4,
+      "source": "https://us.pg.com/blogs/concept-to-consumer-developing-OLAY-cleansing-melts/"
+    },
+    {
+      "kind": "culture",
+      "category": "Category creation",
+      "date": "2026-01-08",
+      "entity": "P&G Ventures",
+      "title": "P&G Ventures explicitly organizes around creating categories, not taking share",
+      "summary": "The venture unit describes its operating model as combining startup agility with P&G science, distribution, and brand-building to pursue constructive disruption.",
+      "thesis": "Large consumer firms are trying to institutionalize repeated category formation rather than rely on accidental internal invention.",
+      "strength": 4,
+      "novelty": 3,
+      "source": "https://us.pg.com/blogs/pg-ventures-history/"
+    },
+    {
+      "kind": "culture",
+      "category": "Sensory engineering",
+      "date": "2026-07-22",
+      "entity": "P&G / Swiffer",
+      "title": "Cleaning performance is bundled with a timed sensory proof of completion",
+      "summary": "Swiffer’s lemon duster adds scent without a spray and frames freshness as a reward attached to an avoided chore.",
+      "thesis": "Consumer products increasingly engineer the felt evidence that a task happened, not only the task’s physical outcome.",
+      "strength": 3,
+      "novelty": 4,
+      "source": "https://us.pg.com/newsroom/news-releases/New-Swiffer-Lemon-Duster-Delivers-the-Fresh-Scent-of-Clean-with-No-Spray-Required/"
+    },
+    {
+      "kind": "culture",
+      "category": "Safety architecture",
+      "date": "2026-06-02",
+      "entity": "Meta",
+      "title": "Teen social feeds adopt age-rated defaults and repetition controls",
+      "summary": "Instagram, Facebook, and Messenger expanded default 13+ content settings and began testing mechanisms intended to prevent repeated exposure to certain content types.",
+      "thesis": "Social platforms are becoming regulated developmental environments with explicit age-specific feed policies rather than universal media pipes.",
+      "strength": 5,
+      "novelty": 4,
+      "source": "https://about.fb.com/news/2026/06/new-13-plus-content-settings-for-teen-accounts-expanding-globally-on-instagram-facebook-messenger/"
+    }
+  ]
+}
